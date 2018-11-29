@@ -11,11 +11,24 @@
 python ./query.py 民
 ```
 
+or 
+
+```python
+from four_corner_method import FourCornerMethod
+
+fcm = FourCornerMethod()
+result = fcm.query('名')
+
+print(result)
+```
+
 输出
 
 ```text
 77747
 ```
+
+
 
 ## 从原始数据生成
 ### 数据来源

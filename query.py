@@ -3,7 +3,7 @@ import sys
 
 
 def query(input_char):
-    with open('data.pkl', 'rb') as fd:
+    with open('four_corner_method/data/data.pkl', 'rb') as fd:
         data = pickle.load(fd)
 
     return data.get(input_char)
